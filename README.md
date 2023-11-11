@@ -26,9 +26,8 @@ Pin8: Vdd (3.3V)</br>
 
 Schematics and other hardware details will be added to the HW subfolder when they become available.
 
-CHSEL currently is just sampled on power-up.  The SW puts the part to sleep after the si598 is intiialized.
-The plan is to make CHSEL edge sensitive to allow the part to act on channel selection changes without requiring
-a power cycle or reset.
+The SW puts the part to sleep after the si598 is intialized. CHSEL now initiates wake from sleep so that a reset is not
+needed to induce a channel change.
 
 <i>Note: A 3.3V TVS on the 3.3V power connection is highly recommended to protect the oscillator and MCU from power transients.</i>
 
