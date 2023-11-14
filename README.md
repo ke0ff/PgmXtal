@@ -1,7 +1,8 @@
 # PgmXtal
 ATtiny-85 Project to control an si598 oscillator (MFR P/N: 598ACA000121DG was used for software verification).
 
-The code is for the Atmel Studio 7 (now Microchip Studio 7).  The I2C/UART portion (i.e., everything NOT in main.c) was plaigurized from the internet - unfortunately,
+The code is for the Atmel Studio 7 (now Microchip Studio 7) SW design environment.  The I2C/UART portion
+(i.e., everything NOT in main.c) was plaigurized from the internet - unfortunately,
 I didn't keep notes on where I found the code, and the author didn't identify themselves in the comments.  SO...
 my bad.
 
@@ -12,7 +13,7 @@ Here are the links for the part datasheets:
 
 https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/si598-99.pdf
 
-https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7669-ATtiny25-45-85-Appendix-B-Automotive-Specification-at-1.8V_Datasheet.pdf
+https://www.mouser.com/datasheet/2/268/Atmel_2586_AVR_8_bit_Microcontroller_ATtiny25_ATti-1315542.pdf
 
 ATTINY85 = 8pin package (SOIC or DIP):</br>
 Pin1: reset (n/c)</br>
