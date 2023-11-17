@@ -6,7 +6,7 @@ The code is for the Atmel Studio 7 (now Microchip Studio 7) SW design environmen
 I didn't keep notes on where I found the code, and the author didn't identify themselves in all of the source file comments.  SO...
 my bad.  Where the author is so identified, I agree to honor their license (as should anyone who choses to use and/or redistribute and code found within this repo - see https://github.com/ke0ff/PgmXtal/blob/main/LICENSE).
 
-The Atmel Studio 7 software project folder is simply zipped into the SW subfolder.  Updated files will be added to that folder as the design matures.
+The Atmel Studio 7 software project folder is simply zipped into the SW subfolder.  Updated files may be added individually to that folder as the design matures.
 So, to reconstruct the project, unzip the archive to your PC.  Then, if there are any .c or .h files inthe SW folder,
 download them and place them into the folder structure for the project (you'll have to dig a bit to get down to them).
 Here are the links for the part datasheets:
