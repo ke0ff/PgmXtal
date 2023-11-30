@@ -30,6 +30,8 @@ Schematics and other hardware details are located in the HW subfolder.
 The SW puts the part to low-power-sleep after the si598 is intialized. CHSEL now initiates wake from sleep so that a reset is not
 needed to induce a channel change.  <i>At least 1us of RC delay (in hardware) should be applied to the CHSEL signal.  More is better (to a point)</i>.
 
+Be sure to note the fuse settings depicted in the SW folder.  Use these settings with the SW contained within this repo.
+
 <i>Note: A 3.3V TVS on the 3.3V power connection is highly recommended to protect the oscillator and MCU from power transients.</i>
 
 The SkyWorks part numbering system is rather difficult to decypher.  The datasheet implies that the I2C address
